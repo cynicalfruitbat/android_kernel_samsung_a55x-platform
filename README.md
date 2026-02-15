@@ -2,7 +2,7 @@
 
 ## 1. Import the toolchain
 ```shell
-repo init -u https://github.com/exynos1480/android_kernel_samsung_a55x-manifest -b android14-6.1
+repo init -u https://github.com/cynicalfruitbat/android_kernel_samsung_a55x-manifest -b android14-6.1
 repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
