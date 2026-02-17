@@ -10,7 +10,7 @@ repo sync -c --no-tags --no-clone-bundle -j$(nproc --all)
 ```shell
 cd kernel_platform
 git submodule init
-git submodule update
+git submodule update --recursive
 ```
 
 ## 3. Initiate the build
